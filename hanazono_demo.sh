@@ -1,1 +1,1 @@
-python3 demo_Hanazono.py
+python3 ~/teleco-v_scripts/demo_Hanazono.py
