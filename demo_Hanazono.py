@@ -19,6 +19,12 @@ from SimpleWebSocketServer import WebSocket, SimpleWebSocketServer, SimpleSSLWeb
 #os.system('python3 Horizontal_reset.py')
 # print('finished')
 
+# commu_ip = '192.168.100.202'
+commu_ip = '10.186.42.29'
+commu_port = 11920
+ws_commu = create_connection("ws://%s:%s/command"%(commu_ip,commu_port))
+
+
 EMOTION = "talking"
 SCALE = 0.5
 SPEED = 0.2
@@ -55,13 +61,12 @@ def signal_handler(signal, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 rospy.init_node('emotional_walk')
+# wsc-json-hanazono.pyでは capf_navigation ノードを作成します
+
 pub = rospy.Publisher('rover_twist', Twist, queue_size=10)
 rate = rospy.Rate(30)
 sub =  rospy.Subscriber("rover_twist", Twist, callback)
 
-commu_ip = '192.168.100.202'
-commu_port = 11920
-ws_commu = create_connection("ws://%s:%s/command"%(commu_ip,commu_port))
 
 global_status_defintion_outside(global_status_dictionary)
 

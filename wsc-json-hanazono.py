@@ -12,7 +12,44 @@ import json
 import rel
 import requests
 
-jetsonIP = "192.168.100.81"
+# ナビゲーションのためのROSライブラリ
+import rospy
+import actionlib #SimpleActionClientを使うためのパッケージ
+from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
+
+jetsonIP = "192.168.100.201"
+
+
+rospy.init_node('capf_navigation') #ノードの初期化
+# demo_Hanazono.pyでは emotional_walk ノードを作成します
+
+client = actionlib.SimpleActionClient('move_base', MoveBaseAction)    #サーバ名，型ともに利用するサーバと一致させる
+client.wait_for_server()    #サーバーの応答を待つ
+# listener.waitForTransform("map", "base_link", rospy.Time(), rospy.Duration(2.0))
+ros_msg = "ROS:: wait_for_server ...."
+
+nav_dict = {
+    # 西側通路
+    'M_WestFar':(3.08, 3.88, 0.0, 0.0, 0.0, 0.0, 1.0),
+    # 西ブース
+    'M_West':(3.02, 7.13, 0.0, 0.0, 0.0, 0.0, 1.0),
+    # 中央ブース
+    'M_Center':(3.02, 13.37, 0.0, 0.0, 0.0, 0.0, 1.0),
+    # 東ブース
+    'M_East':(0.15, 24.0, 0.0, 0.0, 0.0, 0.0, 1.0),
+    # 東側通路
+    'M_EastFar':(-3.72, -5.03, 0.0, 0.0, 0.0, 0.71, 0.71),
+    # 待機場所
+    'M_Waiting':(-0.15, -0.82, 0.0, 0.0, 0.0, 1.0, 0.0),
+}
+
+# hanazonoデモでは不使用
+moveBindings = {
+    'cmd;Forward':(1,0,0,0),
+    'cmd;TurnLeft':(0,0,0,1),
+    'cmd;TurnRight':(0,0,0,-1),
+    'cmd;Backward':(-1,0,0,0),
+}
 
 addr = ''
 port = 0
@@ -711,7 +748,7 @@ jsonCommands = [
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,1,2,3,4,5,6,7],"angles":[20,0,-90,0,-90,0,15,0],"speeds":[10,20,50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
         {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"moving\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
     ],
 ]
 
@@ -791,7 +828,26 @@ def on_message(ws, message):
             num_j += 1
 
         if num_j < 6 :
-            print ('\033[32m' + M_cmdlist[num_j] + ' ... ナビゲーションを実行するね。' + '\033[0m')
+            client.cancel_goal()    #実行中のnavigationを中断するリクエスト
+            try:
+                goal_pose = MoveBaseGoal()
+                goal_pose.target_pose.header.frame_id = 'map'
+                goal_pose.target_pose.pose.position.x = nav_dict[cmd][0]
+                goal_pose.target_pose.pose.position.y = nav_dict[cmd][1]
+                goal_pose.target_pose.pose.position.z = nav_dict[cmd][2]
+                goal_pose.target_pose.pose.orientation.x = nav_dict[cmd][3]
+                goal_pose.target_pose.pose.orientation.y = nav_dict[cmd][4]
+                goal_pose.target_pose.pose.orientation.z = nav_dict[cmd][5]
+                goal_pose.target_pose.pose.orientation.w = nav_dict[cmd][6]
+                #clientとしてgoalをサーバーに送ると同時にfeedback_cb関数を呼び出す
+                result = client.send_goal(goal_pose)
+                print ('\033[32m' + M_cmdlist[num_j] + ' ... ナビゲーションを実行するね。' + '\033[0m')
+                if result:
+                    print(result)
+                    rospy.loginfo("Goal execution done!")
+            except rospy.ROSInterruptException:
+                rospy.loginfo("Navigation test finished.")
+
         else :
             sendJsonCommand(cws, num_j + 13)
             print ('\033[32m' + '動作コマンド ' + M_cmdlist[num_j] + ' を実行するね' + '\033[0m')
@@ -817,6 +873,7 @@ def on_message(ws, message):
 
 
 if __name__ == '__main__':
+    print(ros_msg)
     #global cws
     #global addr
     #global port
@@ -857,5 +914,10 @@ if __name__ == '__main__':
     wst = threading.Thread(target = ws.run_forever)
     wst.daemon = True
     wst.start()
-    while True :
-        time.sleep(1.0)
+    try:
+        while not rospy.is_shutdown():
+        # while True :
+            time.sleep(1.0)
+    except KeyboardInterrupt:
+        print('Ctrl-C を受け取りました。プログラムを終了します,,,,,,')
+        sys.exit(1)
