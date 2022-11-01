@@ -67,7 +67,6 @@ pub = rospy.Publisher('rover_twist', Twist, queue_size=10)
 rate = rospy.Rate(30)
 sub =  rospy.Subscriber("rover_twist", Twist, callback)
 
-
 global_status_defintion_outside(global_status_dictionary)
 
 
