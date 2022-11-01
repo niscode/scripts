@@ -16,8 +16,9 @@ import requests
 import rospy
 import actionlib #SimpleActionClientを使うためのパッケージ
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
+from geometry_msgs.msg import Twist
 
-jetsonIP = "192.168.100.201"
+jetsonIP = "10.186.42.46"
 
 
 rospy.init_node('capf_navigation') #ノードの初期化
@@ -43,12 +44,13 @@ nav_dict = {
     'M_Waiting':(-0.15, -0.82, 0.0, 0.0, 0.0, 1.0, 0.0),
 }
 
-# hanazonoデモでは不使用
+# マニュアル移動用
 moveBindings = {
     'cmd;Forward':(1,0,0,0),
     'cmd;TurnLeft':(0,0,0,1),
     'cmd;TurnRight':(0,0,0,-1),
     'cmd;Backward':(-1,0,0,0),
+    'cmd;Stop':(0,0,0,0)
 }
 
 addr = ''
@@ -852,25 +854,33 @@ def on_message(ws, message):
             sendJsonCommand(cws, num_j + 13)
             print ('\033[32m' + '動作コマンド ' + M_cmdlist[num_j] + ' を実行するね' + '\033[0m')
 
+
     else :
+        if cmd == "cmd;Forward" or cmd == "cmd;TurnLeft" or cmd == "cmd;TurnRight" or cmd == "cmd;Backward" or cmd == "cmd;Stop":
+            print ('\033[33m' + cmd + ' ... マニュアルモードで移動するよ。' + '\033[0m')
+            p=rospy.Publisher('rover_twist',Twist, queue_size=10)
+            rate = rospy.Rate(10)
+
+            x = moveBindings[cmd][0]
+            y = moveBindings[cmd][1]
+            z = moveBindings[cmd][2]
+            th = moveBindings[cmd][3]
+            
+            t = Twist()
+            t.linear.x = x * 0.1
+            t.linear.y = y * 0.1
+            t.linear.z = z * 0.1
+            t.angular.x = 0
+            t.angular.y = 0
+            t.angular.z = th * 0.2
+            
+            for i in range(0, 5) :
+                p.publish(t)
+                rate.sleep()
+        
         # print(cmd)
         if cmd == "cmd;scenario;self_intro" :
             sendJsonCommand(cws, 0)
-        elif cmd == "cmd;scenario;pr_001" :
-            sendJsonCommand(cws, 1)
-        elif cmd == "cmd;scenario;pr_002" :
-            sendJsonCommand(cws, 2)
-        # 以下、tcp-clientによるTeleco-V側の操作
-        # try :
-        #     sota_soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        #     sota_soc.connect(sota)
-        #     sota_soc.send(cmd.encode('utf-8')) #(bytes(cmd))
-        #     #cmd = st.readline()
-        #     sota_soc.close()
-        #     sota_soc = None
-        # except :
-        #     print('Teleco-Vとの通信に失敗しました :', datetime.now())
-
 
 if __name__ == '__main__':
     print(ros_msg)
