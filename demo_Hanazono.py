@@ -59,7 +59,7 @@ pub = rospy.Publisher('rover_twist', Twist, queue_size=10)
 rate = rospy.Rate(30)
 sub =  rospy.Subscriber("rover_twist", Twist, callback)
 
-commu_ip = '192.168.100.202'
+commu_ip = '192.168.100.82'
 commu_port = 11920
 ws_commu = create_connection("ws://%s:%s/command"%(commu_ip,commu_port))
 
