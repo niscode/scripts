@@ -18,7 +18,7 @@ import actionlib #SimpleActionClientを使うためのパッケージ
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from geometry_msgs.msg import Twist
 
-jetsonIP = "192.168.100.121"
+jetsonIP = "192.168.100.81"
 
 
 rospy.init_node('capf_navigation') #ノードの初期化
