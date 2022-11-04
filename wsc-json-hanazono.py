@@ -109,14 +109,14 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"こんにちは","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"こんにちは","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 1500',
         {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["0","400","300"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 750',
-        {"@class":"commu.message.SayInfo","label":"say","text":"私は移動型CAのテレコです","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"私は移動型CAのテレコです","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -124,7 +124,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 3000',
-        {"@class":"commu.message.SayInfo","label":"say","text":"顔が有機ELディスプレイでできているのが大きな特徴です","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"顔が有機ELディスプレイでできているのが大きな特徴です","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[1,2,3,4],"angles":[20,-50,0,50],"speeds":[20,50,50,50],"id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 1500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -143,7 +143,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_background_color","color":"#85a7d4","step":40,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_face","iris_number":3,"mask_number":3,"cheek_number":0,"eye_brow":0,"id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 1000',
         {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["0","400","300"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        {"@class":"commu.message.SayInfo","label":"say","text":"こんなふうに、キャラクターを自由にかえられるよ","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 600',
+        {"@class":"commu.message.SayInfo","label":"say","text":"こんなふうに、キャラクターを自由にかえられるよ","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 600',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 300',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
@@ -235,7 +235,7 @@ jsonCommands = [
         '/wait 3000',
         {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"@class":"commu.message.SayInfo","label":"say","text":"これで、テレコの説明をおわります。ありがとうございました","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 5000',
+        {"@class":"commu.message.SayInfo","label":"say","text":"これで、テレコの説明をおわります。ありがとうございました","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 5000',
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 5000',
         {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
@@ -254,7 +254,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -267,7 +267,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"ティフォンのブースでは、タロットのストーリーを先端技術を駆使したVRで体験することで、より豊かにタロットの意味合いを理解して新感覚のタロット占いを楽しんでいただきます。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"ティフォンのブースでは、タロットのストーリーを先端技術を駆使したVRで体験することで、より豊かにタロットの意味合いを理解して新感覚のタロット占いを楽しんでいただきます。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 2000',
 
@@ -280,7 +280,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -293,7 +293,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"アヴィータのブースは、万博プロデューサー石黒浩さんのプログラムの１つです。アバター接客サービスを活用してアバターに場所を案内してもらいアバターキャラを、探索体験できます。会場内のアバターを全員見つけると、いいことがあるかもしれません！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"アヴィータのブースは、万博プロデューサー石黒浩さんのプログラムの１つです。アバター接客サービスを活用してアバターに場所を案内してもらいアバターキャラを、探索体験できます。会場内のアバターを全員見つけると、いいことがあるかもしれません！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 12000',
 
@@ -306,7 +306,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -319,7 +319,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"デロイトトーマツとドリームオンのブースでは、VRを活用して空飛ぶクルマの搭乗手続きから機内での過ごし方、目的地到着までのアクティビティを体験し、ミライにおける空飛ぶクルマのポテンシャルを感じていただくことができます。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"デロイトトーマツとドリームオンのブースでは、VRを活用して空飛ぶクルマの搭乗手続きから機内での過ごし方、目的地到着までのアクティビティを体験し、ミライにおける空飛ぶクルマのポテンシャルを感じていただくことができます。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 10000',
 
@@ -332,7 +332,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -345,7 +345,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"マスク、のブースでは、実際に飛ぶことができる空飛ぶクルマの実機を展示しています。実機に乗って記念撮影もできます。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"マスク、のブースでは、実際に飛ぶことができる空飛ぶクルマの実機を展示しています。実機に乗って記念撮影もできます。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 4000',
 
@@ -358,7 +358,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -371,7 +371,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"プレースホルダのブースでは、VR技術を使ったインクの出ないデジタル落書きや、砂の形状にあわせて本物の山や海が出現する未来の砂場体験ができます。小さなお子さんの体験にぴったりです。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"プレースホルダのブースでは、VR技術を使ったインクの出ないデジタル落書きや、砂の形状にあわせて本物の山や海が出現する未来の砂場体験ができます。小さなお子さんの体験にぴったりです。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 6000',
 
@@ -384,7 +384,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -397,7 +397,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"アシストモーションのブースでは、ロボットの展示と、歩行アシストロボットの体験ができます。人にやさしい、「着る」ロボットの実現を目指しています。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"アシストモーションのブースでは、ロボットの展示と、歩行アシストロボットの体験ができます。人にやさしい、「着る」ロボットの実現を目指しています。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 6000',
 
@@ -410,7 +410,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -423,7 +423,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"ドローンプラスのブースでは、ドローンの展示と、実際にドローンの操縦体験ができます。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"ドローンプラスのブースでは、ドローンの展示と、実際にドローンの操縦体験ができます。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 4000',
 
@@ -436,7 +436,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -449,7 +449,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"このブースでは、スカイドライブ社の最新機体のパネルの展示や、映像展示を行っています。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"このブースでは、スカイドライブ社の最新機体のパネルの展示や、映像展示を行っています。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 4000',
 
@@ -462,7 +462,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -475,7 +475,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"国立研究開発法人 情報通信研究機構のブースでは、高齢者の健康状態などを対話で把握するAIシステムを展示、体験できます。Webのデータを活用した雑談で高齢者のコミュニケーション不足の抑制を目指しています。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"国立研究開発法人 情報通信研究機構のブースでは、高齢者の健康状態などを対話で把握するAIシステムを展示、体験できます。Webのデータを活用した雑談で高齢者のコミュニケーション不足の抑制を目指しています。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 10000',
 
@@ -488,7 +488,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -501,7 +501,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"ミズノのブースでは、歩くチカラを１分で測定します。歩行能力を把握して健康状態をチェックしましょう。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"ミズノのブースでは、歩くチカラを１分で測定します。歩行能力を把握して健康状態をチェックしましょう。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 4000',
 
@@ -514,7 +514,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"それじゃあブースを紹介するよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -527,7 +527,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"マイボトルを持っていれば、自由に水を飲んでいただける、ダイオーズジャパンが提供するウォーターサーバーです。2階・3階にもサーバーを設置しています。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"マイボトルを持っていれば、自由に水を飲んでいただける、ダイオーズジャパンが提供するウォーターサーバーです。2階・3階にもサーバーを設置しています。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 5000',
 
@@ -540,7 +540,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -554,7 +554,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"西側の大きい階段から2階へ上がると、HADOやロジリシティのどこでもバンジーなど、VR技術を駆使したコンテンツが楽しめるデジタルエンターテイメントゾーンが広がっています。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"西側の大きい階段から2階へ上がると、HADOやロジリシティのどこでもバンジーなど、VR技術を駆使したコンテンツが楽しめるデジタルエンターテイメントゾーンが広がっています。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 10000',
 
@@ -567,7 +567,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -581,7 +581,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"入口両脇の階段から2階へ上がると、モビリティ型ロボットの体験ができるロジリシティのブースと、ユニエイムが提供する東京アウトレット ウィークイン花園エキスポのブースがあります。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"入口両脇の階段から2階へ上がると、モビリティ型ロボットの体験ができるロジリシティのブースと、ユニエイムが提供する東京アウトレット ウィークイン花園エキスポのブースがあります。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 10000',
 
@@ -594,7 +594,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -608,7 +608,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"3階へ上がると、スパーキークリエイトの鳥型ドローン操作や、エディックスのハンドランチグライダー、夢洲機構所属企業集合団体のストライダー体験があります。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"3階へ上がると、スパーキークリエイトの鳥型ドローン操作や、エディックスのハンドランチグライダー、夢洲機構所属企業集合団体のストライダー体験があります。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 8000',
 
@@ -621,7 +621,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -635,7 +635,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"男性用トイレは１階西側通路を進んで左側にあります。大きな階段の左側を進んで下さい。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"男性用トイレは１階西側通路を進んで左側にあります。大きな階段の左側を進んで下さい。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 4000',
 
@@ -648,7 +648,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"場所の案内だね。任せてよ!","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -662,7 +662,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"女性用トイレは１階東側通路を進んで右側にあります。展示エリアを抜けてまっすぐ進んで下さい。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"女性用トイレは１階東側通路を進んで右側にあります。展示エリアを抜けてまっすぐ進んで下さい。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
 
         '/wait 4000',
 
@@ -675,7 +675,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"すみません、お答えが難しい質問です。黄色かピンク色のジャンバーを着たスタッフにお尋ねください。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"すみません、お答えが難しい質問です。黄色かピンク色のジャンバーを着たスタッフにお尋ねください。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 2500',
     ],
     [
@@ -685,7 +685,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"すみませんが、通りたいので道をあけていただけないでしょうか。","voice":"reina","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"すみませんが、通りたいので道をあけていただけないでしょうか。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 3000',
     ],
     [

@@ -13,4 +13,4 @@ python3 ~/teleco-v_scripts/wsc-json-hanazono.py "https://hanazono.ca-platform.or
 # ---- CA002
 # python3 ~/teleco-v_scripts/wsc-json-hanazono.py "https://hanazono.ca-platform.org/api/login" "CA002" "CA002" "wss://hanazono-websocket.ca-platform.org" "192.168.100.81" "1890" "192.168.100.82" "11920"
 
-# python3 ~/teleco-v_scripts/wsc-json-hanazono.py "https://atr-dev02.ca-platform.org/api/login" "CA001" "CA001" "wss://atr-dev02-websocket.ca-platform.org" "192.168.100.121" "1890" "192.168.100.122" "11920"
+# python3 ~/teleco-v_scripts/wsc-json-hanazono.py "https://atr-dev02.ca-platform.org/api/login" "CA001" "CA001" "wss://atr-dev02-websocket.ca-platform.org" "192.168.100.81" "1890" "192.168.100.82" "11920"
