@@ -18,7 +18,7 @@ import actionlib #SimpleActionClientを使うためのパッケージ
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from geometry_msgs.msg import Twist
 
-jetsonIP = "192.168.100.81"
+jetsonIP = "192.168.100.121"
 
 
 rospy.init_node('capf_navigation') #ノードの初期化
@@ -36,12 +36,12 @@ nav_dict = {
     'M_West':(-11.21, 5.58, 0.0, 0.0, 0.0, -0.68, 0.73),
     # 中央ブース
     'M_Center':(-0.27, 5.21, 0.0, 0.0, 0.0, -0.71, 0.70),
-    # 東ブース
-    'M_East':(15.52, 4.64, 0.0, 0.0, 0.0, -0.82, 0.58),
+    # 東ブース 11月5日(土)更新
+    'M_East':(15.64, 4.00, 0.0, 0.0, 0.0, -0.83, 0.56),
     # 東側通路
-    'M_EastFar':(24.47, 4.23, 0.0, 0.0, 0.0, 0.95, -0.31),
-    # 待機場所
-    'M_Waiting':(7.34, 0.12, 0.0, 0.0, 0.0, 0.01, 1.0),
+    'M_EastFar':(24.47, 4.23, 0.0, 0.0, 0.0, -0.82, -0.31),
+    # 待機場所 11月5日(土)更新
+    'M_Waiting':(5.31, -0.18, 0.0, 0.0, 0.0, 0.66, 0.75),
     # チケットブース
     'M_Ticket':(-0.09, -0.26, 0.0, 0.0, 0.0, 0.69, 0.72),
 }
@@ -763,19 +763,14 @@ jsonCommands = [
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.SayInfo","label":"say","text":"ようこそ花園万博へ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 2000',
-        {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["0","400","300"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 750',
-        {"label":"faceCommand","commandFace":"change_iris_position","x":-75,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,7],"angles":[75,-10,-18],"speeds":[70,50,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 800',
+        {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"happy","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        '/wait 800',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,7],"angles":[75,-10,75,10,-18],"speeds":[70,50,70,50,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
-        {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        '/wait 1000',
-        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,1,2,3,4,5,6,7],"angles":[20,0,-90,0,-90,0,15,0],"speeds":[10,20,50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0}
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,6,7],"angles":[-90,0,-90,0,15,0],"speeds":[50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 1500'
     ],
     [
         # Short2
@@ -784,7 +779,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"こんにちは、私はテレコです。この建物の中を案内できるよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"こんにちは、私の名前は、テレコです。この建物の中を案内できるよ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
@@ -828,20 +823,39 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":0,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"ばいばい！またきてね！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":10,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 200',
-        {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 2000',
-        {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["0","400","300"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 750',
-        {"label":"faceCommand","commandFace":"change_iris_position","x":-75,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,7],"angles":[75,-10,-18],"speeds":[70,50,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"ばいばーい！またきてね！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 800',
+        {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"happy","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        '/wait 800',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5],"angles":[75,-10,75,10],"speeds":[70,50,70,50],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
-        {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        '/wait 1000',
-        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,1,2,3,4,5,6,7],"angles":[20,0,-90,0,-90,0,15,0],"speeds":[10,20,50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0}
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,6,7],"angles":[-90,0,-90,0,15,0],"speeds":[50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 1500'
+    ],
+    [
+        # Short5　おこさま目線
+        {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["0","400","300"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"happy","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"@class":"commu.message.SayInfo","label":"say","text":"今日は来てくれてありがとう！何か知りたいことはあるかな？ぜひ、話しかけてね！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 400',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,3,5,6],"angles":[-15,-35,35,-20],"speeds":[10,10,10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[0,0],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 500',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[-35,35],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 500',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[0,0],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 500',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[-35,35],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 500',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[0,0],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 500',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[-35,35],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 500',
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[0,0],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0}
     ],
 ]
 
@@ -927,6 +941,9 @@ def on_message(ws, message):
             print ('\033[34m' + '短い音声案内のコマンドを受け取ったよ。短く挨拶するね: \n' + '\033[0m')
         if cmd == "H_short4" :
             sendJsonCommand(cws, 30)
+            print ('\033[34m' + '短い音声案内のコマンドを受け取ったよ。短く挨拶するね: \n' + '\033[0m')
+        if cmd == "H_short5" :
+            sendJsonCommand(cws, 31)
             print ('\033[34m' + '短い音声案内のコマンドを受け取ったよ。短く挨拶するね: \n' + '\033[0m')
 
 
