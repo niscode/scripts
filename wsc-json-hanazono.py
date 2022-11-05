@@ -936,7 +936,7 @@ def on_message(ws, message):
         while cmd != M_cmdlist[num_j] :
             num_j += 1
 
-        if num_j < 6 :
+        if num_j < 7 :
             client.cancel_goal()    #実行中のnavigationを中断するリクエスト
             try:
                 goal_pose = MoveBaseGoal()
