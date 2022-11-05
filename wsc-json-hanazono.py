@@ -958,7 +958,7 @@ def on_message(ws, message):
                 rospy.loginfo("Navigation test finished.")
 
         else :
-            sendJsonCommand(cws, num_j + 13)
+            sendJsonCommand(cws, num_j + 12)
             print ('\033[32m' + '動作コマンド ' + M_cmdlist[num_j] + ' を実行するね' + '\033[0m')
 
 
