@@ -1,0 +1,6 @@
+numpy
+websockets
+websocket-client
+rospkg
+SimpleWebSocketServer
+rel

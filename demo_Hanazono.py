@@ -19,8 +19,8 @@ from SimpleWebSocketServer import WebSocket, SimpleWebSocketServer, SimpleSSLWeb
 #os.system('python3 Horizontal_reset.py')
 # print('finished')
 
-commu_ip = '192.168.100.82'
-# commu_ip = '10.186.42.31'
+# commu_ip = '192.168.100.82'
+commu_ip = '10.186.42.31'
 commu_port = 11920
 ws_commu = create_connection("ws://%s:%s/command"%(commu_ip,commu_port))
 

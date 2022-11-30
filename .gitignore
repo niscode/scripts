@@ -1,3 +1,6 @@
-launch_tlcclient.sh
+# Byte-completed / optimized / DIL files
 __pycache__/
-ATRnet_demo_Hanazono.py
+*.py[cod]
+*$py.class
+# launch_tlcclient.sh
+# ATRnet_demo_Hanazono.py
