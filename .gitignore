@@ -1,5 +1,6 @@
 # Byte-completed / optimized / DIL files
 __pycache__/
+usb_4mic_array/
 *.py[cod]
 *$py.class
 # launch_tlcclient.sh
