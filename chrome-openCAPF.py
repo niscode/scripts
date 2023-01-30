@@ -24,5 +24,5 @@ driver.find_element(By.XPATH, '/html/body/div/form/main/div/div/div[9]/button').
 # time.sleep(10)
 
 #　Chromeの終了処理
-driver.close()
+# driver.close()
 
