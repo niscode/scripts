@@ -4,3 +4,9 @@ websocket-client
 rospkg
 SimpleWebSocketServer
 rel
+
+# for capf_auto_login.py
+sounddevice==0.4.5
+requests==2.28.2
+urllib3==1.26.14
+selenium==4.8.0
