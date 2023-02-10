@@ -17,8 +17,8 @@ if dev:
                 print(Mic_tuning.direction)
                 print('    degから誰かが話しかけた...')
                 time.sleep(1)
-            # else:
-            #     print(Mic_tuning.direction)
-            #     print('    degから音が聞こえる...')
+            else:
+                print(Mic_tuning.direction)
+                print('    degから音が聞こえる...')
         except KeyboardInterrupt:
             break

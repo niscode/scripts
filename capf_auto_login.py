@@ -12,15 +12,20 @@ from selenium.webdriver.support.ui import Select
 import time
 import argparse
 import sys
+from datetime import datetime
 
-parser = argparse.ArgumentParser(description='引数にLogin IDを指定せよ')
+parser = argparse.ArgumentParser(description='引数にLogin IDとオプションを指定せよ')
 parser.add_argument('id', default="1", help='Set Login ID number for CAPF')
+parser.add_argument('option1', default="1", help='Set Headless Option 1 - true, 0 - false')
 args = parser.parse_args()
 id = "CA00" + args.id
+isHeadless = args.option1
 
 # カメラ(マイク)の使用を許可しますか」ダイアログを回避
 options = webdriver.ChromeOptions()
-# options.add_argument("--headless")# ヘッドレスオプションを指定
+if(isHeadless == "1"):
+    options.add_argument("--headless")# 実行時の引数に応じてヘッドレスオプションを指定
+
 options.add_argument("--use-fake-ui-for-media-stream")# ダイアログを回避オプションを指定
 # options.add_argument("--use-fake-device-for-media-stream")# 偽のカメラ・マイクデバイスを用意するオプションを指定
 
@@ -70,7 +75,7 @@ while True:
 	try:
 		time.sleep(10)
 	except KeyboardInterrupt :
-		print("コマンドの割り込みにより接続を終了します。")
+		print(datetime.now() + "コマンドの割り込みにより接続を終了します。")
 		break
 
 # クロームの終了処理

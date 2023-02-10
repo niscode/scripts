@@ -19,8 +19,9 @@
 # python3 ~/scripts/wsc-json-hanazono.py "https://hanazono.ca-platform.org/api/login" "CA001" "CA001" "wss://hanazono-websocket.ca-platform.org" "192.168.100.81" "1890" "192.168.100.82" "11920"
 # python3 ~/scripts/wsc-json-hanazono.py "https://atr-dev02.ca-platform.org/api/login" "CA001" "CA001" "wss://atr-dev02-websocket.ca-platform.org" "192.168.100.81" "1890" "192.168.100.82" "11920"
 
-# (ATR net) hanzono env /// for ATR-demo
-# ---- CA001
-python3 ~/scripts/wsc-json-ATR.py "https://ignis2.ca-platform.org/api/login" "CA003" "CA003" "wss://ignis2-websocket.ca-platform.org" "10.186.42.91" "1890" "10.186.42.31" "11920"
+# (ATR net) ignis2 env /// for IGNIS-demo
+python3 ~/scripts/wsc-json-IGNIS.py "https://ignis2.ca-platform.org/api/login" "CA003" "CA003" "wss://ignis2-websocket.ca-platform.org" "10.186.42.91" "1890" "10.186.42.31" "11920"
+
+# python3 ~/scripts/wsc-json-ATR.py "https://ignis2.ca-platform.org/api/login" "CA003" "CA003" "wss://ignis2-websocket.ca-platform.org" "10.186.42.91" "1890" "10.186.42.31" "11920"
 
 # python3 ~/scripts/wsc-json-ATR.py "https://ignis2.ca-platform.org/api/login" "CA001" "CA001" "wss://ignis2-websocket.ca-platform.org" "192.168.100.8" "1890" "192.168.100.9" "11920"

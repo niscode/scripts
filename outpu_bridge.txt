@@ -1,0 +1,4 @@
+Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.
+shutdown request: [/capf_navigation] Reason: new node registered with same name
+ROS:: wait_for_server ....
+teleco-H = ('10.186.42.31', 11920)
