@@ -18,6 +18,14 @@ import actionlib #SimpleActionClientを使うためのパッケージ
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from geometry_msgs.msg import Twist
 
+waypoints = [
+    [(-0.0856163501739502,-1.0303490161895752,0.0),(0.0,0.0,0.310046576055206,0.9507213685809546)],
+    [(0.7238894701004028,1.3077094554901123,0.0),(0.0,0.0,0.8294782812788812,0.5585389698907617)],
+    [(2.9680113792419434,3.5968070030212402,0.0),(0.0,0.0,-0.9948838474732121,0.10102539303016063)],
+    [(4.735930442810059,-1.3344614505767822,0.0),(0.0,0.0,0.7088722662418192,0.7053368770688141)],
+    [(-2.658176898956299,-1.5030968189239502,0.0),(0.0,0.0,0.6529810901764967,0.7573742112535348)],
+]
+
 jetsonIP = "10.186.42.91"
 # jetsonIP = "192.168.100.8"
 
@@ -335,7 +343,7 @@ jsonCommands = [
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.SayInfo","label":"say","text":"ようこそスタートアップサイドへ！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 800',
-        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,7],"angles":[75,-10,75,10,-18],"speeds":[70,50,70,50,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5],"angles":[75,-10,75,10],"speeds":[70,50,70,50],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,6,7],"angles":[-90,0,-90,0,15,0],"speeds":[50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500'
@@ -566,6 +574,19 @@ jsonCommands = [
     ],
 ]
 
+def goal_pose(pose): 
+    goal_pose = MoveBaseGoal()
+    goal_pose.target_pose.header.frame_id = 'map'
+    goal_pose.target_pose.pose.position.x = pose[0][0]
+    goal_pose.target_pose.pose.position.y = pose[0][1]
+    goal_pose.target_pose.pose.position.z = pose[0][2]
+    goal_pose.target_pose.pose.orientation.x = pose[1][0]
+    goal_pose.target_pose.pose.orientation.y = pose[1][1]
+    goal_pose.target_pose.pose.orientation.z = pose[1][2]
+    goal_pose.target_pose.pose.orientation.w = pose[1][3]
+
+    return goal_pose
+
 
 def sendJsonCommand(ws, index):
     commands = jsonCommands[index]
@@ -671,36 +692,29 @@ def on_message(ws, message):
         if cmd == "M_Run" :
             sendJsonCommand(cws, 19)
 
-
         num_j = 0
         while cmd != M_cmdlist[num_j] :
             num_j += 1
-
-        if num_j < 10 :
-            client.cancel_goal()    #実行中のnavigationを中断するリクエスト
-            try:
-                goal_pose = MoveBaseGoal()
-                goal_pose.target_pose.header.frame_id = 'map'
-                goal_pose.target_pose.pose.position.x = nav_dict[cmd][0]
-                goal_pose.target_pose.pose.position.y = nav_dict[cmd][1]
-                goal_pose.target_pose.pose.position.z = nav_dict[cmd][2]
-                goal_pose.target_pose.pose.orientation.x = nav_dict[cmd][3]
-                goal_pose.target_pose.pose.orientation.y = nav_dict[cmd][4]
-                goal_pose.target_pose.pose.orientation.z = nav_dict[cmd][5]
-                goal_pose.target_pose.pose.orientation.w = nav_dict[cmd][6]
-                #clientとしてgoalをサーバーに送ると同時にfeedback_cb関数を呼び出す
-                result = client.send_goal(goal_pose)
-                print ('\033[32m' + M_cmdlist[num_j] + ' ... ナビゲーションを実行するね。' + '\033[0m')
-                if result:
-                    print(result)
-                    rospy.loginfo("Goal execution done!")
-            except rospy.ROSInterruptException:
-                rospy.loginfo("Navigation test finished.")
 
         else :
             sendJsonCommand(cws, num_j + 11)
             print ('\033[32m' + '動作コマンド ' + M_cmdlist[num_j] + ' を実行するね' + '\033[0m')
 
+    # N_1 ~ N_5
+    if header == "N" :
+        client.cancel_goal()  # 実行中のnavigationを中断するリクエスト
+        point = cmd[2]   # コマンドの3文字目を取得してインデックス番号として変数pointに代入
+
+        try:
+            goal = goal_pose(waypoints[int(point)-1])
+            result = client.send_goal(goal)
+            print ('\033[32m' + point + ' まで自律移動を開始するね。' + '\033[0m')
+
+            if result:
+                print(result)
+                rospy.loginfo("Goal execution done!")
+        except rospy.ROSInterruptException:
+            rospy.loginfo("Navigation test finished.")
 
     else :
         if cmd == "cmd;Forward" or cmd == "cmd;TurnLeft" or cmd == "cmd;TurnRight" or cmd == "cmd;Backward" or cmd == "cmd;Stop":
