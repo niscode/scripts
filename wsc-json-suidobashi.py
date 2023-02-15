@@ -1,4 +1,5 @@
 # coding: utf-8
+#! /usr/bin/env python3
 
 import sys
 import socket
@@ -18,6 +19,13 @@ import actionlib #SimpleActionClientを使うためのパッケージ
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from geometry_msgs.msg import Twist
 
+import random
+
+# ❶ JetsonのIPを登録
+jetsonIP = "10.186.42.91"
+# jetsonIP = "192.168.100.8"
+
+# ❷ ナビゲーションの移動先を登録
 waypoints = [
     [(-0.0856163501739502,-1.0303490161895752,0.0),(0.0,0.0,0.310046576055206,0.9507213685809546)],
     [(0.7238894701004028,1.3077094554901123,0.0),(0.0,0.0,0.8294782812788812,0.5585389698907617)],
@@ -26,8 +34,6 @@ waypoints = [
     [(-2.658176898956299,-1.5030968189239502,0.0),(0.0,0.0,0.6529810901764967,0.7573742112535348)],
 ]
 
-jetsonIP = "10.186.42.91"
-# jetsonIP = "192.168.100.8"
 
 rospy.init_node('capf_navigation') #ノードの初期化
 # demo_Hanazono.pyでは emotional_walk ノードを作成します
@@ -36,17 +42,6 @@ client = actionlib.SimpleActionClient('move_base', MoveBaseAction)    #サーバ
 client.wait_for_server()    #サーバーの応答を待つ
 # listener.waitForTransform("map", "base_link", rospy.Time(), rospy.Duration(2.0))
 ros_msg = "ROS:: wait_for_server ...."
-
-nav_dict = {
-    # 目標地点0: ベース
-    'M_Base':(-19.27, 6.55, 0.0, 0.0, 0.0, -0.62, 0.79),
-    # 受付
-    'M_Front':(-19.27, 6.55, 0.0, 0.0, 0.0, -0.62, 0.79),
-    # エントランス
-    'M_Entrance':(-11.21, 5.58, 0.0, 0.0, 0.0, -0.68, 0.73),
-    # レストルーム
-    'M_WC':(-0.27, 5.21, 0.0, 0.0, 0.0, -0.71, 0.70),
-}
 
 # マニュアル移動用
 moveBindings = {
@@ -479,6 +474,9 @@ jsonCommands = [
     ],
     [
         # no. 17 - 首を振る
+        # ク　左手を後ろに、右手を前に
+        {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[1,2,4],"angles":[0,-90,-90],"speeds":[20,75,75],"id":"","topic":"command","client":0,"room":"room","commu":0},
+        '/wait 200',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[7],"angles":[-30],"speeds":[20],"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_iris_position","x":-75,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[7],"angles":[30],"speeds":[20],"id":"","topic":"command","client":0,"room":"room","commu":0},
@@ -534,7 +532,7 @@ jsonCommands = [
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,1,2,3,4,5,6],"angles":[-15,0,-90,-10,-90,10,20],"speeds":[10,10,50,10,50,10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
     ],
     # 以下、走る動作を3つに分割
-    # ① 掛け声
+    # no.20 ① 掛け声のみ
     [
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[4,5,7],"angles":[75,10,18],"speeds":[70,50,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
@@ -544,33 +542,37 @@ jsonCommands = [
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,2,3,4,5,6,7],"angles":[-15,-90,-10,-90,10,20,0],"speeds":[10,50,10,50,10,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
     ],
-    # ② テクテク
+    # no.21 ② テクテク
     [
         # テ 左手を前に、右手を後ろに
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[1,2,4],"angles":[10,-45,-135],"speeds":[20,75,75],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 500',
+        '/wait 600',
 
         # ク　左手を後ろに、右手を前に
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[1,2,4],"angles":[-10,-135,-45],"speeds":[20,75,75],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 500',
+        '/wait 600',
 
         # テ 左手を前に、右手を後ろに
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[1,2,4],"angles":[10,-45,-135],"speeds":[20,75,75],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 500',
+        '/wait 600',
 
         # ク　左手を後ろに、右手を前に
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[1,2,4],"angles":[-10,-135,-45],"speeds":[20,75,75],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        '/wait 500',
+        '/wait 600',
     ],
-    # ③ ついたよ
+    # no.22 ③ ついたよ
     [
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,1,2,3,4,5,6],"angles":[-15,0,-90,-10,-90,10,20],"speeds":[10,10,50,10,50,10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,7],"angles":[75,-10,75,10,-18],"speeds":[70,50,70,50,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"@class":"commu.message.SayInfo","label":"say","text":"とうちゃーーく。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
+        {"@class":"commu.message.SayInfo","label":"say","text":"とうちゃくぅー！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,6,7],"angles":[-90,0,-90,0,15,0],"speeds":[50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500'
+    ],
+    # no.23 ④ えっほえっほ
+    [
+        {"@class":"commu.message.SayInfo","label":"say","text":"動きます。ご注意ください。","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
     ],
 ]
 
@@ -705,14 +707,43 @@ def on_message(ws, message):
         client.cancel_goal()  # 実行中のnavigationを中断するリクエスト
         point = cmd[2]   # コマンドの3文字目を取得してインデックス番号として変数pointに代入
 
+        print ('\033[32m' + '周りの人に移動開始を伝えるね' + '\033[0m')
+        sendJsonCommand(cws, 20)
+
         try:
             goal = goal_pose(waypoints[int(point)-1])
-            result = client.send_goal(goal)
+            client.send_goal(goal)
             print ('\033[32m' + point + ' まで自律移動を開始するね。' + '\033[0m')
+            nav_time_init = time.time()
 
-            if result:
-                print(result)
-                rospy.loginfo("Goal execution done!")
+            while True:
+                nav_time = time.time()
+                status = client.get_state()  #ゴールの状態を数値で取得（PREEMPTED=2, SUCCEEDED=3, ABORTED=4）
+                print(f"[Result] Status: {status}")   #ゴールの状態を表示
+                
+                ## 目的地に到着した場合:
+                if status == 3:
+                    print ('\033[32m' + point + ' に到着したよ。' + '\033[0m')
+                    time.sleep(1.0)
+                    sendJsonCommand(cws, 22)
+                    break
+                ## 1分半以上経っても目的地に辿り着かない場合:
+                elif nav_time - nav_time_init >= 90:
+                    print ('\033[32m' + '迷っちゃったから、自律移動を停止するよ。' + '\033[0m')
+                    time.sleep(1.0)
+                    sendJsonCommand(cws, 22)
+                    break
+                elif status == 1:
+                    
+                    time.sleep(1.0)
+                    rand = random.random()
+                    if rand > 0.2:
+                        sendJsonCommand(cws, 21)      # 走るモーション
+                        if rand > 0.5:
+                            sendJsonCommand(cws, 23)  # アナウンス
+                    else:
+                        sendJsonCommand(cws, 17)      # 首振りモーション
+
         except rospy.ROSInterruptException:
             rospy.loginfo("Navigation test finished.")
 
