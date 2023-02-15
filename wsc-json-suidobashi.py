@@ -474,7 +474,7 @@ jsonCommands = [
     ],
     [
         # no. 17 - 首を振る
-        # ク　左手を後ろに、右手を前に
+        # 両手を降ろす
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[1,2,4],"angles":[0,-90,-90],"speeds":[20,75,75],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 200',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[7],"angles":[-30],"speeds":[20],"id":"","topic":"command","client":0,"room":"room","commu":0},
@@ -694,13 +694,13 @@ def on_message(ws, message):
         if cmd == "M_Run" :
             sendJsonCommand(cws, 19)
 
-        num_j = 0
-        while cmd != M_cmdlist[num_j] :
-            num_j += 1
+        # num_j = 0
+        # while cmd != M_cmdlist[num_j] :
+        #     num_j += 1
 
-        else :
-            sendJsonCommand(cws, num_j + 11)
-            print ('\033[32m' + '動作コマンド ' + M_cmdlist[num_j] + ' を実行するね' + '\033[0m')
+        # else :
+        #     sendJsonCommand(cws, num_j + 11)
+        #     print ('\033[32m' + '動作コマンド ' + M_cmdlist[num_j] + ' を実行するね' + '\033[0m')
 
     # N_1 ~ N_5
     if header == "N" :
@@ -716,7 +716,7 @@ def on_message(ws, message):
             print ('\033[32m' + point + ' まで自律移動を開始するね。' + '\033[0m')
             nav_time_init = time.time()
 
-            while True:
+            while not rospy.is_shutdown():
                 nav_time = time.time()
                 status = client.get_state()  #ゴールの状態を数値で取得（PREEMPTED=2, SUCCEEDED=3, ABORTED=4）
                 print(f"[Result] Status: {status}")   #ゴールの状態を表示
@@ -818,7 +818,6 @@ if __name__ == '__main__':
     wst.start()
     try:
         while not rospy.is_shutdown():
-        # while True :
             time.sleep(1.0)
     except KeyboardInterrupt:
         print('Ctrl-C を受け取りました。プログラムを終了します,,,,,,')

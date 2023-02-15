@@ -112,7 +112,7 @@ def rover_thread():
     while not rospy.is_shutdown():
         cylinder_v, period = cylinderg_parameters(emotion = EMOTION, x = elapsed_time, speed = SPEED, scale=SCALE)
         # cylinder_v, period = cylinderg_parameters(emotion = 'neutral', x = elapsed_time, speed = SPEED, scale=SCALE)
-        twist.linear.z = cylinder_v
+        # twist.linear.z = cylinder_v   # シリンダーの待機動作を停止
         # twist.linear.x = 0.
         if status == "stop":
             for _ in range(10):
