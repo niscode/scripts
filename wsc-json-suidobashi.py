@@ -654,6 +654,7 @@ def on_message(ws, message):
             sendJsonCommand(cws, num_i + 1)
             print ('\033[34m' + V_cmdlist[num_i][0] + ' 音声案内のコマンドを受け取ったよ。場所の案内やブースの紹介文を発話するね: \n' + scenario + '\033[0m')
 
+
     # ショート動作コマンド
     if header == "H" :
         if cmd == "H_short1" :
@@ -672,7 +673,8 @@ def on_message(ws, message):
             sendJsonCommand(cws, 10)
             print ('\033[34m' + '短い音声案内のコマンドを受け取ったよ。短く挨拶するね: \n' + '\033[0m')
 
-    # 動作コマンド 14 items   先頭 6items はナビゲーション用 -- 2022/10/28
+
+    # 動作コマンド
     if header == "M" :
         print ('\033[32m' + '動作コマンド ' + cmd + ' を実行するね' + '\033[0m')
         if cmd == "M_BodyLeft" :
@@ -694,13 +696,6 @@ def on_message(ws, message):
         if cmd == "M_Run" :
             sendJsonCommand(cws, 19)
 
-        # num_j = 0
-        # while cmd != M_cmdlist[num_j] :
-        #     num_j += 1
-
-        # else :
-        #     sendJsonCommand(cws, num_j + 11)
-        #     print ('\033[32m' + '動作コマンド ' + M_cmdlist[num_j] + ' を実行するね' + '\033[0m')
 
     # N_1 ~ N_5
     if header == "N" :
