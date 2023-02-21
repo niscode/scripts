@@ -21,9 +21,9 @@ from geometry_msgs.msg import Twist
 
 import random
 
-# ❶ JetsonのIPを登録
-jetsonIP = "10.186.42.91"
-# jetsonIP = "192.168.100.8"
+# ❶ JetsonのIP/Portを登録
+jetsonIP = "10.186.42.92"
+jetsonPort = "11925"
 
 # ❷ ナビゲーションの移動先を登録
 waypoints = [
@@ -166,7 +166,7 @@ jsonCommands = [
         {"@class":"commu.message.MoveInfo","label":"move","joint":4,"angle":-90,"speed":100,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.MoveInfo","label":"move","joint":2,"angle":-90,"speed":100,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"upper_flag\",\"desire_state\":0,\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"upper_flag\",\"desire_state\":0,\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.MoveInfo","label":"move","joint":4,"angle":-20,"speed":50,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.MoveInfo","label":"move","joint":2,"angle":-20,"speed":50,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["800","100","100"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},
@@ -189,38 +189,38 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 300',
         {"@class":"commu.message.SayInfo","label":"say","text":"うで、","voice":"anzu","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"banzai","data":"0.0\tP\t0.0\t70\t4\t40\t2\t40\t-1\n2.0\tP\t0.0\t70\t4\t-40\t2\t-40\t-1\n2.0\tP\t0.0\t70\t4\t40\t2\t40\t-1\n2.0\tP\t0.0\t70\t4\t-90\t2\t-90\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 1000',
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"upper_flag\",\"desire_state\":1,\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"upper_flag\",\"desire_state\":1,\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.SayInfo","label":"say","text":"体の上下の動きを組み合わせて、多様な表現ができます","voice":"anzu","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 3000',
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         '/wait 3000',
         {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 200',
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 200',
         {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"happy","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.SayInfo","label":"say","text":"うれしいときには、こんなふうに体全体でそれを表現できるよ","voice":"reina","speed":1.15,"volume":1,"pitch":1.1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 6000',
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 6000',
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         '/wait 3000',
         {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 500',
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 500',
         {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"sad","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"sad\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"sad\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.SayInfo","label":"say","text":"悲しいときにも、こんなふうに体全体でそれを表現できるよ","voice":"reina","speed":0.8,"volume":1,"pitch":0.85,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 6000',
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"start\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},'/wait 6000',
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         '/wait 3000',
         {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.SayInfo","label":"say","text":"これで、テレコの説明をおわります。ありがとうございました","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 5000',
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 5000',
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"label": "clearFace", "id": "", "topic": "command", "client": 0, "room": "", "commu": 0},
         {"label": "faceCommand", "commandFace": "init_face", "id": "", "topic": "command", "client": 0, "room": "", "commu": 0},
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,1,2,3,4,5,6,7],"angles":[20,0,-90,0,-90,0,15,0],"speeds":[10,20,50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
@@ -380,7 +380,7 @@ jsonCommands = [
         {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["0","400","300"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 750',
         {"label":"faceCommand","commandFace":"change_iris_position","x":-75,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
         {"label":"faceCommand","commandFace":"change_iris_position","x":0,"y":0,"framestoachieve":2,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},'/wait 500',
@@ -397,14 +397,14 @@ jsonCommands = [
         {"@class":"commu.message.SayInfo","label":"say","text":"ばいばーい！またきてね！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 800',
         {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"happy","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         '/wait 800',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5],"angles":[75,-10,75,10],"speeds":[70,50,70,50],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[2,3,4,5,6,7],"angles":[-90,0,-90,0,15,0],"speeds":[50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"label": "clearFace", "id": "", "topic": "command", "client": 0, "room": "", "commu": 0},
         {"label": "faceCommand", "commandFace": "init_face", "id": "", "topic": "command", "client": 0, "room": "", "commu": 0}
     ],
@@ -414,7 +414,7 @@ jsonCommands = [
         {"@class":"commu.message.LookInfo","label":"look","name":"manual","pos":["0","400","300"],"cr":[0.5,0.5,0.5,0.5,0.5,0.5],"speed":[30,30,30,30,100,100,100],"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"command":"upper_flag","desire_state":1,"id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"happy","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"happy\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.SayInfo","label":"say","text":"今日は来てくれてありがとう！何か知りたいことはあるかな？ぜひ、話しかけてね！","voice":"maki","speed":1,"volume":1,"pitch":1,"pause":800,"device":"default","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 400',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,3,5,6],"angles":[-15,-35,35,-20],"speeds":[10,10,10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
@@ -431,8 +431,8 @@ jsonCommands = [
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[-35,35],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 500',
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[3,5],"angles":[0,0],"speeds":[10,10],"id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_emotion\",\"emotion\":\"no_talking\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"label": "clearFace", "id": "", "topic": "command", "client": 0, "room": "", "commu": 0},
         {"label": "faceCommand", "commandFace": "init_face", "id": "", "topic": "command", "client": 0, "room": "", "commu": 0},
     ],
@@ -493,7 +493,7 @@ jsonCommands = [
         {"label":"faceCommand","commandFace":"change_face_emotion","emotion":"no_talking","mouth_emotion":"happy","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":11,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},
         {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"stop\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
         {"@class":"commu.message.GestureInfo","label":"gesture","name":"ojigi","data":"\n0.5\tP\t0.0\t20\t0\t-15\t6\t-20.0\t-1\n0.0\tP\t0.2\t20\t3\t-2\t5\t2\t-1\n\n1.0\tP\t0.0\t20\t0\t0\t6\t0\t-1\n0.0\tP\t0.2\t20\t3\t-5\t5\t5\t-1\n\n1.0\tt\n","relative":"false","id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 2500',
         {"label":"faceCommand","commandFace":"change_eye_lid_position","eyelidposition":0,"framestoachieve":1,"eyes":"both","id":"","topic":"command","client":0,"room":"room","commu":0},
@@ -501,7 +501,7 @@ jsonCommands = [
         {"@class":"commu.message.MoveMultiInfo","label":"move_multi","joints":[0,1,2,3,4,5,6,7],"angles":[20,0,-90,0,-90,0,15,0],"speeds":[10,20,50,50,50,50,10,20],"id":"","topic":"command","client":0,"room":"room","commu":0},
         '/wait 1500',
         {"label":"faceCommand","commandFace":"init_face","id":"","topic":"command","client":0,"room":"room","commu":0},
-        {"ip":jetsonIP,"port":"11925","label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"moving\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
+        {"ip":jetsonIP,"port":jetsonPort,"label":"externalCommand","data":"{\"command\":\"change_state\",\"status\":\"moving\",\"id\":\"\",\"topic\":\"command\",\"client\":0,\"room\":\"\",\"commu\":0}"},
     ],
     [
         # no.19 - 走る （かがむ -> 右手を前に、左手を後ろに -> 右手を後ろに、左手を前に）
@@ -642,7 +642,7 @@ def on_message(ws, message):
     # print(cmd)
     header = message[:1]
 
-    # 音声案内コマンド
+    # 音声案内コマンド Voice
     if header == "V" :
         if cmd == "V_Self" :
             sendJsonCommand(cws, 0)
@@ -655,7 +655,7 @@ def on_message(ws, message):
             print ('\033[34m' + V_cmdlist[num_i][0] + ' 音声案内のコマンドを受け取ったよ。場所の案内やブースの紹介文を発話するね: \n' + scenario + '\033[0m')
 
 
-    # ショート動作コマンド
+    # ショート動作コマンド Head
     if header == "H" :
         if cmd == "H_short1" :
             sendJsonCommand(cws, 6)
@@ -674,7 +674,7 @@ def on_message(ws, message):
             print ('\033[34m' + '短い音声案内のコマンドを受け取ったよ。短く挨拶するね: \n' + '\033[0m')
 
 
-    # 動作コマンド
+    # 動作コマンド Motion
     if header == "M" :
         print ('\033[32m' + '動作コマンド ' + cmd + ' を実行するね' + '\033[0m')
         if cmd == "M_BodyLeft" :
@@ -697,7 +697,7 @@ def on_message(ws, message):
             sendJsonCommand(cws, 19)
 
 
-    # N_1 ~ N_5
+    # ナビゲーションコマンド Navigation   （N_1 ~ N_5）
     if header == "N" :
         client.cancel_goal()  # 実行中のnavigationを中断するリクエスト
         point = cmd[2]   # コマンドの3文字目を取得してインデックス番号として変数pointに代入
@@ -741,6 +741,12 @@ def on_message(ws, message):
 
         except rospy.ROSInterruptException:
             rospy.loginfo("Navigation test finished.")
+
+
+    # シリンダー昇降 Cylinder
+    if header == "C" :
+        print("実装中だよ。2023年2月17日")
+        
 
     else :
         if cmd == "cmd;Forward" or cmd == "cmd;TurnLeft" or cmd == "cmd;TurnRight" or cmd == "cmd;Backward" or cmd == "cmd;Stop":
@@ -790,7 +796,7 @@ if __name__ == '__main__':
     websocket.enableTrace(True)
 
     print('teleco-H =', handaiip)
-    cws = websocket.WebSocketApp("ws://%s:%d/command" %( handaiip[0], handaiip[1]),
+    cws = websocket.WebSocketApp("ws://%s:%d/command" %(handaiip[0], handaiip[1]),
                               on_message = on_message_j,
                               on_error = on_error_j,
                               on_close = on_close_j)
