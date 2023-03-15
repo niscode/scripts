@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 import rospy
+from std_msgs.msg import Float32
 from geometry_msgs.msg import Twist, Point, Pose
 from visualization_msgs.msg import Marker
 import json
 
-POS_X = POS_Y = POS_Z = ORI_Z = ORI_W = 0.0
+POS_X = POS_Y = POS_Z = ORI_Z = ORI_W = VOLTAGE = 0.0
 MPOS_X = []
 MPOS_Y = []
 MORI_Z = []
@@ -38,6 +39,11 @@ def marker_callback(msg_marker):
     # print("[ ]" + str(msg_marker.id))
 
 
+def voltage_callback(msg_voltage):
+    global VOLTAGE
+    VOLTAGE = msg_voltage.data
+
+
 def spinOnce(sub, topic, type):
     rospy.wait_for_message(topic, type, timeout=None)
     sub.unregister();   # 1度だけ呼び出してからsubscriberを停止する
@@ -45,10 +51,14 @@ def spinOnce(sub, topic, type):
 
 if __name__ == '__main__':
     rospy.init_node('ros_bridge')
-    rate = rospy.Rate(1)
+    rate = rospy.Rate(10)
 
     # pub_pos = rospy.Publisher('/cylinder_pos', Point, queue_size=10)
     # pub = rospy.Publisher('rover_twist', Twist, queue_size=10)
+
+    ## voltageをサブスクライブ
+        # data: 27.7689990997
+    sub_voltage = rospy.Subscriber("voltage", Float32, voltage_callback)
 
     ## Telecoの現在位置をサブスクライブ
         # position: 
@@ -81,9 +91,9 @@ if __name__ == '__main__':
         #     z: 0.829478281279
         #     w: 0.558538969891
         #  部分的に取得：ほんとはもっと長い
-
     sub_waypoint = rospy.Subscriber("waypoint", Marker, marker_callback)
     spinOnce(sub_waypoint, "waypoint", Marker)
+
 
     ## 辞書型に変換
     marker_dict = {
@@ -100,15 +110,17 @@ if __name__ == '__main__':
     while not rospy.is_shutdown():
         sub_robotPose = rospy.Subscriber("robot_pose", Pose, pose_callback)
         sub_cylinderPos = rospy.Subscriber("cylinder_pos", Point, point_callback)
+        sub_voltage = rospy.Subscriber("voltage", Float32, voltage_callback)
         pos_dict = {
+            "voltage": VOLTAGE,
             "pos_x": POS_X,
             "pos_y": POS_Y,
             "pos_z": POS_Z,
             "ori_z": ORI_Z,
-            "ori_w": ORI_W
+            "ori_w": ORI_W,
         }
-        
+
         pos_json = json.dumps(pos_dict)
         print("[JSON TELECO-POS] " + str(pos_json))
-        rospy.sleep(1.0)
+        rospy.sleep(1.0)    # 1秒おきにTelecoの現在の姿勢を送信
         rate.sleep()

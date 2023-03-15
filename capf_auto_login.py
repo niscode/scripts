@@ -33,7 +33,8 @@ options.add_argument("--use-fake-ui-for-media-stream")# ダイアログを回避
 driver = webdriver.Chrome(options=options)
 
 # ページ接続
-driver.get('https://ignis2.ca-platform.org/login')
+driver.get('https://atr-dev02.ca-platform.org/login')
+# driver.get('https://atr-dev01.ca-platform.org/login')
 
 # キー入力
 # driver.find_element_by_xpath('//*[@id="name"]').send_keys("CA001")
@@ -42,22 +43,21 @@ driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(id)
 
 
 # デバイス指定
-input1 = "ReSpeaker 4 Mic Array (UAC1.0) マルチチャネル"
-output1 = "Yamaha YVC-200 Analog Mono"
+input1 = "ReSpeaker 4 Mic Array (UAC1.0) マルチチャンネル"
+input2 = "Yamaha YVC-200 アナログモノラル"
+output1 = "Yamaha YVC-200 アナログモノラル"
 output2 = "Yamaha YVC-200 モノ"
+# output3 = "ReSpeaker 4 Mic Array (UAC1.0) アナログステレオ"
 time.sleep(3)
 
-#  マイクの選択 ReSpeaker -> なければYamaha
-try:
-    Select(driver.find_element(By.XPATH, '//*[@id="deviceIdMic"]')).select_by_visible_text(input1)
-except:
-    print("ReSpeakerとの接続を確認できない。")
-    try:
-        Select(driver.find_element(By.XPATH, '//*[@id="deviceIdMic"]')).select_by_visible_text(output1)
-    except:
-        Select(driver.find_element(By.XPATH, '//*[@id="deviceIdMic"]')).select_by_visible_text(output2)
+#  マイクの選択 ReSpeaker なければ YAMAHA
+Select(driver.find_element(By.XPATH, '//*[@id="deviceIdMic"]')).select_by_visible_text(input1)
+# try:
+#     Select(driver.find_element(By.XPATH, '//*[@id="deviceIdMic"]')).select_by_visible_text(input1)
+# except:
+#     Select(driver.find_element(By.XPATH, '//*[@id="deviceIdMic"]')).select_by_visible_text(input2)
 
-#  スピーカーの選択
+#  スピーカーの選択 YAMAHA
 try:
     Select(driver.find_element(By.XPATH, '//*[@id="deviceIdSpk"]')).select_by_visible_text(output1)
 except:

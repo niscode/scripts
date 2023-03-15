@@ -3802,3 +3802,5393 @@ status moving
 status moving
 {'command': 'change_emotion', 'emotion': 'happy', 'id': '', 'topic': 'command', 'client': 0, 'room': '', 'commu': 0}
 ('10.186.42.31', 45496) close
+**robot doing// period 2.000000, time 0.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 4.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 6.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 8.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 10.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 12.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 14.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 16.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 18.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 20.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 22.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 24.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 26.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 28.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 30.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 32.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 34.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 36.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 39.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 41.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 43.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 45.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 47.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 49.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 51.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 53.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 55.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 57.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 59.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 61.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 63.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 65.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 67.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 69.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 71.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 73.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 75.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 77.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 79.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 81.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 83.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 85.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 87.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 90.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 92.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 94.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 96.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 98.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 100.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 102.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 104.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 106.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 108.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 110.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 112.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 114.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 116.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 118.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 120.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 122.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 124.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 126.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 128.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 130.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 132.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 134.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 136.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 139.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 141.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 143.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 145.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 147.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 149.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 151.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 153.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 155.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 157.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 159.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 161.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 163.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 165.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 167.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 169.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 171.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 173.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 175.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 177.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 179.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 181.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 183.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 185.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 187.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 189.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 191.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 194.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 196.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 198.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 200.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 202.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 204.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 206.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 208.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 210.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 212.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 214.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 216.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 218.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 220.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 222.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 224.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 226.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 228.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 230.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 232.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 234.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 236.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 238.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 240.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 242.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 245.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 247.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 249.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 251.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 253.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 255.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 257.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 259.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 261.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 263.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 265.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 267.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 269.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 271.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 273.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 275.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 277.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 279.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 281.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 283.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 285.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 287.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 289.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 291.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 294.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 296.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 298.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 300.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 302.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 304.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 306.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 308.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 310.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 312.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 314.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 316.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 318.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 320.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 322.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 324.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 326.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 328.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 330.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 332.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 334.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 336.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 338.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 340.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 343.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 345.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 347.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 349.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 351.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 353.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 355.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 357.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 359.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 361.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 363.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 365.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 367.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 369.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 371.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 373.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 375.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 377.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 379.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 381.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 383.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 385.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 387.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 389.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 392.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 394.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 396.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 398.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 400.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 402.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 404.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 406.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 408.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 410.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 412.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 414.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 416.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 418.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 420.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 422.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 424.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 426.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 428.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 430.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 432.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 434.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 436.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 439.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 441.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 443.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 445.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 447.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 449.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 451.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 453.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 455.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 457.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 459.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 461.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 463.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 465.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 467.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 469.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 471.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 473.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 475.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 477.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 479.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 481.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 483.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 485.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 487.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 490.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 492.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 494.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 496.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 498.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 500.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 502.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 504.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 506.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 508.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 510.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 512.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 514.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 516.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 518.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 520.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 522.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 524.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 526.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 528.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 530.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 532.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 534.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 537.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 539.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 541.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 543.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 545.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 547.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 549.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 551.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 553.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 555.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 557.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 559.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 561.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 563.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 565.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 567.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 569.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 571.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 573.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 575.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 577.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 579.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 581.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 583.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 585.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 588.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 590.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 592.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 594.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 596.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 598.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 600.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 602.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 604.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 606.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 608.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 610.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 612.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 614.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 616.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 618.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 620.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 622.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 624.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 626.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 628.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 630.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 632.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 635.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 637.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 639.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 641.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 643.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 645.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 647.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 649.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 651.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 653.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 655.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 657.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 659.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 661.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 663.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 665.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 667.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 669.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 671.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 673.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 675.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 677.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 679.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 682.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 684.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 686.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 688.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 690.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 692.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 694.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 696.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 698.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 700.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 702.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 704.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 706.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 708.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 710.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 712.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 714.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 716.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 718.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 720.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 722.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 724.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 726.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 728.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 730.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 733.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 735.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 737.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 739.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 741.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 743.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 745.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 747.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 749.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 751.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 753.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 755.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 757.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 759.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 761.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 763.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 765.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 767.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 769.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 771.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 773.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 775.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 777.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 779.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 781.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 783.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 786.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 788.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 790.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 792.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 794.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 796.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 798.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 800.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 802.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 804.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 806.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 808.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 810.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 812.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 814.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 816.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 818.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 820.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 822.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 824.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 826.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 828.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 830.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 832.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 834.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 836.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 838.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 840.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 843.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 845.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 847.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 849.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 851.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 853.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 855.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 857.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 859.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 861.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 863.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 865.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 867.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 869.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 871.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 873.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 875.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 877.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 879.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 881.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 883.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 885.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 887.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 889.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 891.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 893.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 895.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 897.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 900.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 902.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 904.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 906.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 908.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 910.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 912.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 914.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 916.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 918.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 920.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 922.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 924.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 926.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 928.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 930.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 932.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 934.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 936.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 938.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 940.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 942.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 944.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 946.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 948.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 950.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 952.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 955.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 957.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 959.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 961.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 963.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 965.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 967.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 969.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 971.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 973.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 975.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 977.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 979.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 981.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 983.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 985.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 987.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 989.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 991.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 993.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 995.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 997.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 999.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1001.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1003.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1005.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1007.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1009.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1012.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1014.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1016.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1018.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1020.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1022.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1024.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1026.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1028.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1030.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1032.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1034.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1036.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1038.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1040.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1042.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1044.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1046.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1048.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1050.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1052.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1054.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1056.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1058.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1060.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1062.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1064.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1067.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1069.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1071.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1073.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1075.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1077.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1079.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1081.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1083.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1085.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1087.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1089.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1091.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1093.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1095.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1097.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1099.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1101.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1103.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1105.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1107.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1109.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1111.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1113.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1115.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1117.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1119.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1121.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1123.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1125.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1127.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1129.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1132.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1134.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1136.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1138.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1140.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1142.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1144.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1146.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1148.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1150.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1152.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1154.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1156.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1158.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1160.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1162.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1164.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1166.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1168.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1170.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1172.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1174.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1176.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1178.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1180.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1182.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1185.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1187.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1189.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1191.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1193.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1195.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1197.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1199.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1201.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1203.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1205.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1207.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1209.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1211.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1213.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1215.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1217.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1219.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1221.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1223.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1225.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1227.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1229.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1231.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1233.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1235.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1237.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1239.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1241.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1243.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1245.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1247.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1249.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1252.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1254.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1256.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1258.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1260.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1262.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1264.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1266.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1268.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1270.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1272.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1274.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1276.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1278.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1280.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1282.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1284.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1286.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1288.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1290.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1292.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1294.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1296.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1298.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1300.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1302.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1304.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1306.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1309.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1311.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1313.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1315.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1317.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1319.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1321.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1323.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1325.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1327.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1329.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1331.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1333.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1335.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1337.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1339.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1341.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1343.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1345.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1347.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1349.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1351.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1353.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1355.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1357.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1359.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1361.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1363.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1365.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1367.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1370.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1372.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1374.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1376.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1378.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1380.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1382.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1384.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1386.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1388.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1390.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1392.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1394.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1396.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1398.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1400.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1402.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1404.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1406.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1408.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1410.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1412.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1414.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1416.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1418.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1420.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1422.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1424.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1426.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1429.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1431.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1433.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1435.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1437.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1439.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1441.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1443.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1445.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1447.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1449.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1451.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1453.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1455.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1457.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1459.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1461.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1463.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1465.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1467.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1469.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1471.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1473.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1475.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1477.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1479.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1481.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1483.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1485.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1488.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1490.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1492.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1494.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1496.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1498.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1500.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1502.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1504.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1506.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1508.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1510.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1512.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1514.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1516.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1518.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1520.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1522.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1524.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1526.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1528.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1530.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1532.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1534.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1536.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1539.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1541.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1543.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1545.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1547.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1549.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1551.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1553.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1555.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1557.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1559.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1561.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1563.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1565.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1567.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1569.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1571.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1573.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1575.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1577.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1579.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1581.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1583.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1585.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1587.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1589.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1591.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1593.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1595.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1597.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1599.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1602.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1604.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1606.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1608.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1610.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1612.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1614.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1616.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1618.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1620.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1622.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1624.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1626.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1628.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1630.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1632.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1634.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1636.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1638.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1640.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1642.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1644.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1646.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1648.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1650.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1652.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1654.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1657.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1659.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1661.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1663.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1665.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1667.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1669.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1671.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1673.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1675.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1677.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1679.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1681.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1683.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1685.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1687.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1689.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1691.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1693.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1695.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1697.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1699.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1701.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1703.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1706.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1708.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1710.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1712.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1714.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1716.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1718.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1720.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1722.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1724.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1726.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1728.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1730.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1732.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1734.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1736.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1738.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1740.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1742.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1744.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1746.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1748.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1750.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1753.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1755.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1757.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1759.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1761.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1763.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1765.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1767.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1769.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1771.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1773.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1775.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1777.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1779.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1781.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1783.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1785.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1787.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1789.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1791.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1793.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1795.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1797.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1799.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1801.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1803.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1806.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1808.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1810.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1812.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1814.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1816.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1818.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1820.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1822.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1824.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1826.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1828.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1830.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1832.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1834.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1836.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1838.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1840.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1842.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1844.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1846.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1848.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1851.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1853.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1855.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1857.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1859.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1861.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1863.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1865.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1867.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1869.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1871.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1873.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1875.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1877.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1879.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1881.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1883.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1885.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1887.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1889.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1891.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1893.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1895.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1898.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1900.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1902.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1904.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1906.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1908.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1910.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1912.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1914.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1916.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1918.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1920.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1922.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1924.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1926.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1928.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1930.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1932.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1934.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1936.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1938.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1940.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1942.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1945.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1947.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1949.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1951.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 1953.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1955.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1957.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 1959.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1961.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 1963.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1965.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1967.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 1969.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1971.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 1973.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1975.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1977.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 1979.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1981.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 1983.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1985.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1987.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 1989.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1991.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1993.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 1995.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1997.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 1999.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2002.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2004.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2006.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2008.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2010.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2012.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2014.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2016.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2018.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2020.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2022.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2024.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2026.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2028.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2030.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2032.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2034.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2036.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2038.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2040.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2042.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2044.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2047.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2049.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2051.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2053.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2055.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2057.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2059.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2061.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2063.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2065.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2067.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2069.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2071.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2073.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2075.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2077.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2079.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2081.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2083.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2085.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2087.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2089.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2091.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2093.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2096.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2098.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2100.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2102.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2104.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2106.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2108.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2110.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2112.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2114.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2116.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2118.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2120.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2122.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2124.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2126.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2128.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2130.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2132.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2134.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2136.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2138.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2140.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2143.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2145.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2147.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2149.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2151.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2153.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2155.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2157.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2159.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2161.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2163.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2165.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2167.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2169.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2171.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2173.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2175.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2177.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2179.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2181.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2183.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2185.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2187.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2189.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2191.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2193.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2195.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2197.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2200.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2202.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2204.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2206.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2208.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2210.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2212.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2214.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2216.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2218.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2220.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2222.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2224.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2226.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2228.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2230.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2232.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2234.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2236.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2238.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2240.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2242.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2244.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2246.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2249.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2251.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2253.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2255.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2257.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2259.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2261.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2263.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2265.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2267.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2269.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2271.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2273.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2275.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2277.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2279.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2281.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2283.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2285.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2287.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2289.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2291.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2293.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2295.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2297.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2299.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2302.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2304.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2306.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2308.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2310.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2312.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2314.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2316.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2318.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2320.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2322.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2324.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2326.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2328.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2330.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2332.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2334.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2336.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2338.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2340.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2342.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2344.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2346.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2348.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2350.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2352.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2354.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2357.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2359.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2361.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2363.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2365.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2367.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2369.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2371.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2373.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2375.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2377.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2379.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2381.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2383.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2385.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2387.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2389.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2391.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2393.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2395.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2397.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2399.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2401.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2403.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2405.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2407.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2410.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2412.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2414.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2416.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2418.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2420.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2422.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2424.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2426.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2428.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2430.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2432.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2434.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2436.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2438.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2440.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2442.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2444.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2446.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2448.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2450.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2452.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2454.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2456.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2458.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2460.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2462.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2464.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2467.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2469.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2471.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2473.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2475.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2477.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2479.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2481.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2483.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2485.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2487.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2489.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2491.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2493.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2495.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2497.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2499.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2501.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2503.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2505.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2507.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2509.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2511.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2513.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2515.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2517.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2520.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2522.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2524.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2526.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2528.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2530.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2532.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2534.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2536.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2538.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2540.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2542.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2544.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2546.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2548.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2550.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2552.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2554.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2556.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2558.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2560.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2562.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2564.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2566.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2568.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2570.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2572.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2574.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2576.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2579.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2581.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2583.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2585.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2587.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2589.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2591.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2593.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2595.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2597.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2599.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2601.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2603.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2605.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2607.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2609.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2611.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2613.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2615.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2617.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2619.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2621.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2623.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2625.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2627.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2629.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2631.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2633.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2636.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2638.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2640.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2642.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2644.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2646.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2648.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2650.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2652.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2654.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2656.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2658.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2660.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2662.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2664.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2666.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2668.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2670.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2672.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2674.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2676.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2678.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2680.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2682.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2684.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2686.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2688.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2690.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2692.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2695.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2697.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2699.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2701.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2703.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2705.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2707.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2709.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2711.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2713.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2715.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2717.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2719.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2721.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2723.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2725.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2727.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2729.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2731.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2733.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2735.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2737.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2739.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2741.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2744.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2746.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2748.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2750.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2752.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2754.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2756.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2758.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2760.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2762.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2764.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2766.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2768.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2770.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2772.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2774.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2776.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2778.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2780.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2782.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2784.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2786.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2788.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2790.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2792.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2794.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2797.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2799.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2801.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2803.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2805.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2807.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2809.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2811.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2813.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2815.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2817.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2819.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2821.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2823.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2825.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2827.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2829.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2831.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2833.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2835.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2837.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2839.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2841.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2843.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2845.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2847.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2849.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2851.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2854.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2856.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2858.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2860.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2862.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2864.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2866.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2868.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2870.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2872.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2874.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2876.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2878.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2880.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2882.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2884.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2886.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2888.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2890.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2892.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2894.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2896.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2898.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2900.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2902.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2904.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2907.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2909.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2911.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2913.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2915.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2917.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2919.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2921.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2923.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2925.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2927.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2929.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2931.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2933.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2935.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2937.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2939.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2941.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2943.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2945.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2947.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 2949.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2951.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2953.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 2955.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2957.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2959.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 2961.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2963.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2965.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 2968.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2970.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2972.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 2974.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2976.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2978.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 2980.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2982.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 2984.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2986.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 2988.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2990.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2992.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2994.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 2996.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 2998.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3000.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3002.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3004.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3006.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3008.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3010.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3012.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3014.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3016.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3018.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3020.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3022.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3025.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3027.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3029.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3031.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3033.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3035.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3037.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3039.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3041.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3043.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3045.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3047.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3049.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3051.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3053.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3055.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3057.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3059.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3061.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3063.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3065.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3067.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3069.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3071.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3073.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3075.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3077.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3079.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3082.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3084.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3086.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3088.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3090.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3092.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3094.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3096.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3098.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3100.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3102.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3104.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3106.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3108.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3110.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3112.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3114.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3116.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3118.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3120.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3122.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3124.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3126.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3128.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3130.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3132.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3134.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3136.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3138.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3140.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3143.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3145.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3147.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3149.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3151.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3153.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3155.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3157.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3159.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3161.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3163.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3165.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3167.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3169.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3171.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3173.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3175.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3177.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3179.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3181.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3183.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3185.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3187.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3189.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3191.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3193.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3195.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3197.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3199.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3201.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3203.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3206.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3208.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3210.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3212.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3214.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3216.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3218.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3220.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3222.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3224.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3226.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3228.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3230.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3232.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3234.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3236.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3238.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3240.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3242.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3244.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3246.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3248.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3250.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3252.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3254.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3256.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3259.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3261.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3263.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3265.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3267.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3269.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3271.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3273.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3275.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3277.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3279.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3281.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3283.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3285.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3287.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3289.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3291.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3293.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3295.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3297.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3299.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3301.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3303.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3305.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3307.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3309.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3311.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3313.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3315.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3317.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3320.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3322.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3324.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3326.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3328.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3330.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3332.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3334.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3336.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3338.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3340.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3342.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3344.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3346.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3348.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3350.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3352.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3354.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3356.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3358.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3360.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3362.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3364.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3366.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3368.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3370.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3372.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3374.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3377.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3379.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3381.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3383.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3385.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3387.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3389.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3391.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3393.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3395.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3397.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3399.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3401.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3403.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3405.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3407.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3409.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3411.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3413.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3415.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3417.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3419.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3421.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3423.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3425.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3427.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3429.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3432.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3434.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3436.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3438.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3440.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3442.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3444.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3446.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3448.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3450.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3452.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3454.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3456.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3458.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3460.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3462.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3464.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3466.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3468.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3470.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3472.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3474.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3476.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3479.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3481.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3483.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3485.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3487.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3489.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3491.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3493.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3495.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3497.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3499.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3501.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3503.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3505.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3507.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3509.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3511.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3513.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3515.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3517.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3519.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3521.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3523.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3525.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3527.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3529.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3531.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3533.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3536.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3538.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3540.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3542.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3544.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3546.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3548.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3550.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3552.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3554.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3556.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3558.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3560.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3562.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3564.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3566.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3568.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3570.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3572.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3574.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3576.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3578.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3580.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3582.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3584.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3586.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3589.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3591.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3593.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3595.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3597.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3599.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3601.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3603.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3605.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3607.300000
+status moving
+status moving
+**robot doing// period 2.000000, time 3609.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3611.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3613.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3615.400000
+status moving
+status moving
+**robot doing// period 2.000000, time 3617.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3619.500000
+status moving
+status moving
+**robot doing// period 2.000000, time 3621.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3623.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3625.600000
+status moving
+status moving
+**robot doing// period 2.000000, time 3627.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3629.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3631.700000
+status moving
+status moving
+**robot doing// period 2.000000, time 3633.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3635.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3637.800000
+status moving
+status moving
+**robot doing// period 2.000000, time 3639.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3641.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3643.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3645.900000
+status moving
+status moving
+**robot doing// period 2.000000, time 3648.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3650.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3652.000000
+status moving
+status moving
+**robot doing// period 2.000000, time 3654.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3656.100000
+status moving
+status moving
+**robot doing// period 2.000000, time 3658.200000
+status moving
+status moving
+**robot doing// period 2.000000, time 3660.200000
+status moving
